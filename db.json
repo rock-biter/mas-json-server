@@ -11,25 +11,27 @@
     "name": { "string": {} },
     "vat": { "string": {} }
   },
-  "Form": {
-    "_id": { "string": {} },
-    "form_code": { "string": {} },
-    "document_code": { "string": {} },
-    "operation_type": { "string": {} },
-    "cer_code": { "string": {} },
-    "cer_decription": { "string": {} },
-    "physical_state": { "string": {} },
-    "cer_p_np": { "string": {} },
-    "quantity": { "int": { "min": 0, "max": 10000 } },
-    "date": {
-      "dateTime": {
-        "min": "2019-01-01T00:00:00Z",
-        "max": "2021-12-31T23:59:59Z"
+  "forms": [
+    {
+      "_id": { "string": {} },
+      "form_code": { "string": {} },
+      "document_code": { "string": {} },
+      "operation_type": { "string": {} },
+      "cer_code": { "string": {} },
+      "cer_decription": { "string": {} },
+      "physical_state": { "string": {} },
+      "cer_p_np": { "string": {} },
+      "quantity": { "int": { "min": 0, "max": 10000 } },
+      "date": {
+        "dateTime": {
+          "min": "2019-01-01T00:00:00Z",
+          "max": "2021-12-31T23:59:59Z"
+        }
+      },
+      "producer": {
+        "belongsTo": "Producer"
       }
-    },
-    "producer": {
-      "belongsTo": "Producer"
     }
-  }
+  ]
   
 }
