@@ -21,7 +21,7 @@
         "max": "2021-12-31T23:59:59Z"
       }
     },
-    "producer": {
+    "Producer": {
         "code": { "string": {} },
         "uni_code": { "string": {} },
         "name": { "string": {} },
