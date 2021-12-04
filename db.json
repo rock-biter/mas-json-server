@@ -5,6 +5,16 @@
       "title": "hello"
     }
   ],
+  "forms": [
+    {
+      "code": "FJEJFBNKLS",
+      "quantity": "94.52"
+    },
+    {
+      "code": "JWOILASUIA",
+      "quantity": "16.65"
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
