@@ -11,7 +11,7 @@
     "name": { "string": {} },
     "vat": { "string": {} },
     "Location": {
-      "address": { "string": {} }
+      
     }
   },
   "Form": {
