@@ -6,13 +6,10 @@
     }
   },
   "Producer": {
-    "code": { "string": {} },
-    "uni_code": { "string": {} },
-    "name": { "string": {} },
-    "vat": { "string": {} },
-    "Location": {
-      
-    }
+    "code": { "regexp": "[A-Z][0-9]{5,10}" },
+    "uni_code": { "regexp": "[A-Z][0-9]{5,10}" },
+    "name": { "regexp": "[A-Z][a-z]{5,10}" },
+    "vat": { "string": {} }
   },
   "Form": {
     "_id": { "string": {} },
