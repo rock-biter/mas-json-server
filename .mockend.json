@@ -9,7 +9,10 @@
     "code": { "string": {} },
     "uni_code": { "string": {} },
     "name": { "string": {} },
-    "vat": { "string": {} }
+    "vat": { "string": {} },
+    "Location": {
+      "address": { "string": {} }
+    }
   },
   "Form": {
     "_id": { "string": {} },
