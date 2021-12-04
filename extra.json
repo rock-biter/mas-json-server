@@ -1,0 +1,72 @@
+{
+  "transporter": {
+    "code": { "string": {} },
+    "uni_code": { "string": {} },
+    "name": { "string": {} },
+    "location": {
+        "address": { "string": {} },
+        "city": { "string": {} },
+        "country": { "string": {} }
+    },
+    "vat": { "string": {} }
+  },
+  "receiver": {
+    "code": { "string": {} },
+    "uni_code": { "string": {} },
+    "name": { "string": {} },
+    "location": {
+        "address": { "string": {} },
+        "city": { "string": {} },
+        "country": { "string": {} }
+    },
+    "vat": { "string": {} }
+  },
+  "broker": { 
+    "code": { "string": {} },
+    "uni_code": { "string": {} },
+    "name": { "string": {} },
+    "location": {
+        "address": { "string": {} },
+        "city": { "string": {} },
+        "country": { "string": {} }
+    },
+    "vat": { "string": {} }
+  },
+  "driver_form": {
+      "code": { "string": {} },
+      "date": {
+        "dateTime": {
+          "min": "2019-01-01T00:00:00Z",
+          "max": "2021-12-31T23:59:59Z"
+        }
+      },
+      "departure": {
+        "dateTime": {
+          "min": "2019-01-01T00:00:00Z",
+          "max": "2021-12-31T23:59:59Z"
+        }
+      },
+      "arrival": {
+        "dateTime": {
+          "min": "2019-01-01T00:00:00Z",
+          "max": "2021-12-31T23:59:59Z"
+        }
+      },
+      "vat": { "string": {} }
+  },
+  "invoice_rows": { "boolean": {} },
+  "register": { "boolean": {} },
+  "logistics": {
+      "revenues": { "int": { "min": 0, "max": 10000 } },
+      "internal_costs": { "int": { "min": 0, "max": 10000 } },
+      "external_costs": { "int": { "min": 0, "max": 10000 } }
+  },
+  "recovery": {
+      "revenues": { "int": { "min": 0, "max": 10000 } },
+      "costs": { "int": { "min": 0, "max": 10000 } }
+  },
+  "disposal": {
+      "revenues": { "int": { "min": 0, "max": 10000 } },
+      "costs": { "int": { "min": 0, "max": 10000 } }
+  }
+}
