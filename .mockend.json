@@ -29,6 +29,15 @@
     },
     "producer": {
       "belongsTo": "Producer"
+    },
+    "transporter": {
+      "object": {
+        "code": { "string": {} },
+        "uni_code": { "string": {} },
+        "name": { "string": {} },
+        "location": { "string": {} },
+        "vat": { "string": {} }
+      }
     } 
 }
   
