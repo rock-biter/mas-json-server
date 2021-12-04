@@ -9,11 +9,6 @@
     "code": { "string": {} },
     "uni_code": { "string": {} },
     "name": { "string": {} },
-    "location": {
-        "address": { "string": {} },
-        "city": { "string": {} },
-        "country": { "string": {} }
-    },
     "vat": { "string": {} }
   },
   "Form": {
