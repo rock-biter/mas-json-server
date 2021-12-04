@@ -31,11 +31,10 @@
       "belongsTo": "Producer"
     },
     "transporter": {
-      "object": {
+      "Producer": {
         "code": { "string": {} },
         "uni_code": { "string": {} },
         "name": { "string": {} },
-        "location": { "string": {} },
         "vat": { "string": {} }
       }
     } 
